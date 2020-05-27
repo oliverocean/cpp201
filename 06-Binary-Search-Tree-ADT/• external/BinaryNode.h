@@ -9,7 +9,7 @@ template<class ItemType>
 class BinaryNode
 {
 private:
-   ItemType              item;           // Data portion
+   ItemType              item;                           // Data portion
    std::shared_ptr<BinaryNode<ItemType>> leftChildPtr;   // Pointer to left child
    std::shared_ptr<BinaryNode<ItemType>> rightChildPtr;  // Pointer to right child
 
